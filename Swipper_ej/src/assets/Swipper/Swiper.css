@@ -1,0 +1,55 @@
+.Swiper {
+    width: 70% !important;
+    top: 80px;
+}
+
+.slide-content {
+    background: whitesmoke;
+    width: 40%;
+    margin: 3rem auto;
+    border-radius: 10px;
+    border: solid 2px white;
+    box-shadow: 8px 8px #dddcdc;
+    padding: 10px;
+}
+
+.user-content-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-photo {
+    width: 150px;
+}
+
+.info-content{
+    display: grid;
+}
+
+.info-content > h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 3rem;
+    margin: 2rem 1rem;
+}
+
+.user-testimonial {
+    margin: 1rem 1rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 850px){
+    .Swiper{
+        width: 98% !important;
+    }
+
+    .slide-content {
+        width: 80%;
+    }
+
+    .user-content-img {
+        margin-top: 1.5rem;
+    }
+
+}

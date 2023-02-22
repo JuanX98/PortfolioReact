@@ -1,0 +1,34 @@
+*CREAR NUEVO PROYECTO*
+    npx create-react-app name-app
+    cd name-app
+    npm start
+
+*CONSTRUIR PROYECTO*
+    npm run build
+
+*USE STATE*
+    import {useState} from "react";
+    const [variable, funcionVar] = useState(valorInicial);
+
+    onClick = {() => {
+        funcionVar(nuevoValor)
+    }}
+
+*USE EFFECT*
+    import {useEffect} from "react";
+    useEffect(function () {
+        //code
+    }) //DE ESTA MANERA EL CODIGO SE EJECUTA SIEMPRE
+
+    useEffect(function () {
+        //code
+    }, []) //DE ESTA MANERA EL CODIGO SE EJECUTA SOLO CUANDO CARGA EL COMPONENTE
+    // [ELEMENTO_CAMBIA]
+
+*CREAR PROYECTO VITE*
+    npm create vite
+        >nombre_proyecto
+        >react
+        >cd nombre_proyecto
+        >npm install
+        >npm run dev
